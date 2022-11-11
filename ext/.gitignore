@@ -1,2 +1,4 @@
-.idea/
-/tsn/*
+.idea/*
+/tsn/tsn/resources/node_modules/
+/tsn/tsn/styles/all/theme/js/tsn_theme.js
+/tsn/tsn/vendor/

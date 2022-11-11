@@ -244,8 +244,8 @@ if (!$config['use_system_cron'])
 
 	if ($task->is_ready())
 	{
-		$cron_task_tag = $task->get_html_tag();
-		$template->assign_var('RUN_CRON_TASK', $cron_task_tag);
+		$url = $task->get_url();
+		$template->assign_var('RUN_CRON_TASK', '<img src="' . $url . '" width="1" height="1" alt="cron" />');
 	}
 	else
 	{
@@ -255,8 +255,8 @@ if (!$config['use_system_cron'])
 
 		if ($task->is_ready())
 		{
-			$cron_task_tag = $task->get_html_tag();
-			$template->assign_var('RUN_CRON_TASK', $cron_task_tag);
+			$url = $task->get_url();
+			$template->assign_var('RUN_CRON_TASK', '<img src="' . $url . '" width="1" height="1" alt="cron" />');
 		}
 	}
 }

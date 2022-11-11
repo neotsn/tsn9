@@ -759,7 +759,7 @@ function phpbb_http_login($param)
 	{
 		if ($request->is_set($k, \phpbb\request\request_interface::SERVER))
 		{
-			$username = html_entity_decode($request->server($k), ENT_COMPAT);
+			$username = htmlspecialchars_decode($request->server($k), ENT_COMPAT);
 			break;
 		}
 	}
@@ -769,7 +769,7 @@ function phpbb_http_login($param)
 	{
 		if ($request->is_set($k, \phpbb\request\request_interface::SERVER))
 		{
-			$password = html_entity_decode($request->server($k), ENT_COMPAT);
+			$password = htmlspecialchars_decode($request->server($k), ENT_COMPAT);
 			break;
 		}
 	}
