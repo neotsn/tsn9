@@ -1,7 +1,7 @@
 /* Google Web Fonts
 --------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
 
 /* Styling Classes
 --------------------------------------------- */
@@ -259,7 +259,7 @@ blockquote {
 li.reported:hover { background-color: #FFEDA3 !important; }
 
 #format-buttons input,
-#format-buttons select { 
+#format-buttons select {
   margin: 1px 0;
   padding: 8px 15px;
   min-height: 38px;
@@ -1067,7 +1067,7 @@ fieldset.display-actions.buttons-list > * {
 .cp-wrapper fieldset.display-actions a, fieldset.display-actions.buttons-list a { display: inline-block; }
 
 .topiclist.cplist dl {
-  margin: 0; 
+  margin: 0;
   padding: 4px 0;
 }
 #cp-main .panel li.row {
@@ -1759,7 +1759,7 @@ p.slider-featureslist {
 
 /* Breacrumb Navigation bar
 -------------------------------------------------- */
-.navbar.beadcrumb {
+.navbar.breadcrumb {
   background: #F5F5F5;
   color: #999;
   border: none;
@@ -1770,16 +1770,16 @@ p.slider-featureslist {
           box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
 }
 
-.navbar.beadcrumb ul.navitems a { color: #999; }
+.navbar.breadcrumb ul.navitems a { color: #999; }
 
-.navbar.beadcrumb ul.navitems {
+.navbar.breadcrumb ul.navitems {
   border: none;
   font-weight: 400;
   float: left;
   margin: 0;
 }
 
-.navbar.beadcrumb ul.navitems li {
+.navbar.breadcrumb ul.navitems li {
   margin: 0;
   float: left;
   display: block;
@@ -1788,7 +1788,7 @@ p.slider-featureslist {
   line-height:  2.2em;
 }
 
-.navbar.beadcrumb ul.navbuttons {
+.navbar.breadcrumb ul.navbuttons {
   margin: 0;
   list-style-type: none;
   float: right;
@@ -1876,7 +1876,7 @@ ul.topiclist li.row:nth-child(even) { background-color: #F9F9F9; }
 a.subforum {
   position: relative;
   white-space: nowrap;
-  
+
   padding: 6px 0 6px 22px;
   line-height: 21px;
   background-size: 19px;
@@ -2424,7 +2424,7 @@ dl.details dt {
 
   -webkit-box-shadow: inset 0 0 25px 10px rgba(0, 0, 0, 0);
   box-shadow: inset 0 0 25px 10px rgba(0, 0, 0, 0);
-  
+
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2);
@@ -2519,7 +2519,7 @@ h1,h2,h3,h4,h5,h6, .header, .nav.nav-tabs, #tabs { font-family: 'Roboto Slab', s
 }
 
 /* Ads */
-.adspace { overflow: hidden } 
+.adspace { overflow: hidden }
 
 .inpage-adspace {
   line-height: 90px;
@@ -2672,8 +2672,8 @@ h1,h2,h3,h4,h5,h6, .header, .nav.nav-tabs, #tabs { font-family: 'Roboto Slab', s
 .rtl .pagination { margin-left: 0; margin-right: 5px; }
 .rtl ul.topiclist .collapse-button { float: left; margin-right: 0; margin-left: 15px;}
 .rtl .postbody ul.profile-icons { margin-right: 25px; right: 0; }
-.rtl .navbar.beadcrumb ul.navlinks { float: right; }
-.rtl .navbar.beadcrumb ul.navbuttons { float: left; }
+.rtl .navbar.breadcrumb ul.navlinks { float: right; }
+.rtl .navbar.breadcrumb ul.navbuttons { float: left; }
 .rtl #cp-menu:after { left: auto; right: 19%; }
 .rtl #navigation #active-subsection a:after { right: auto; left: 0; border-right-color: rgba(0, 0, 0, 0); border-left-color: #EEE; }
 .rtl .carousel-caption .btn .fa { padding-left: 6px; padding-right: auto; }

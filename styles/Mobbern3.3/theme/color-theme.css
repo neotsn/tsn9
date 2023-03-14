@@ -1,24 +1,25 @@
 :root {
-  --primary-color: #0f3f71;
+    --primary-color: #0f3f71;
 
-  --primary-color-lightest: #c3cfdc;
-  --primary-color-lighter: #879fb8;
-  --primary-color-light: #4b6f95;
+    --primary-color-lightest: #c3cfdc;
+    --primary-color-lighter: #879fb8;
+    --primary-color-light: #4b6f95;
 
-  --primary-color-dark: #0b3c6f;
-  --primary-color-darker: #05386b;
-  --primary-color-darkest: #003366;
+    --primary-color-dark: #0b3c6f;
+    --primary-color-darker: #05386b;
+    --primary-color-darkest: #003366;
 
-  --secondary-color: #ae6c0b;
+    --secondary-color: #ae6c0b;
 
-  --secondary-color-light: #c29148;
-  --secondary-color-lighter: #d7b685;
-  --secondary-color-lightest: #ebdac2;
+    --secondary-color-light: #c29148;
+    --secondary-color-lighter: #d7b685;
+    --secondary-color-lightest: #ebdac2;
 
-  --secondary-color-dark: #835108;
-  --secondary-color-darker: #573606;
-  --secondary-color-darkest: #2c1b03;
+    --secondary-color-dark: #835108;
+    --secondary-color-darker: #573606;
+    --secondary-color-darkest: #2c1b03;
 }
+
 /* SITE COLORS
 --------------------------------------------- */
 /* primary-color */
@@ -35,7 +36,7 @@ a.forumtitle:hover,
 a.forumtitle:active,
 a.topictitle:hover,
 a.topictitle:active,
-.navbar.beadcrumb ul.navitems a:hover,
+.navbar.breadcrumb ul.navitems a:hover,
 input.search-icon:focus,
 .navbar-default .nav > .mega-menu.open > a,
 .navbar-default .nav > .mega-menu.open > a:hover,
@@ -44,7 +45,7 @@ input.search-icon:focus,
 #tabs .activetab a span,
 #tabs .activetab a:hover span,
 .search-box .button2 {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 #mobbern-header-2 #main-navbar.navbar,
@@ -65,19 +66,19 @@ a.button2,
 input.button2,
 .carousel .item,
 .panel-rules .panel-body {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .content.quick-reply {
-  border-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .row .pagination span a:hover,
 li.pagination span a:hover,
 .pagination span strong,
 .row .pagination ul li a:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 a.button1:hover,
@@ -90,31 +91,31 @@ input.button3:hover,
 #tabs a:hover span,
 .sidebar-block.tabs-panel .nav-tabs > li > a:hover,
 .sidebar-block.tabs-panel .nav-tabs > li > a:focus {
-  background-color: var(--secondary-color-light);
+    background-color: var(--secondary-color-light);
 }
 
 /* primary-color-lighter */
 #main-navbar .dropdown-menu > li > a:hover,
 #main-navbar .dropdown-menu > li > a:focus {
-  background-color: var(--primary-color-lighter);
+    background-color: var(--primary-color-lighter);
 }
 
 /* primary-color-dark */
 input.button1:focus,
 input.button2:focus,
 input.button3:focus {
-  background-color: var(--primary-color-dark);
+    background-color: var(--primary-color-dark);
 }
 
 /* primary-color-darkest */
 html,
 #page-footer,
 #simple-wrap .copyright {
-  background-color: var(--primary-color-darkest);
+    background-color: var(--primary-color-darkest);
 }
 
 .footer-contact-social a .icon {
-  color: #0d4263;
+    color: var(--primary-color-darkest);
 }
 
 /* text-color-footer */
@@ -122,11 +123,11 @@ html,
 .footer-links-list a,
 #simple-wrap .copyright,
 .copyright a {
-  color: #91a5ae;
+    color: #91a5ae;
 }
 
 .footer-contact-social a .icon {
-  background-color: #91a5ae;
+    background-color: #91a5ae;
 }
 
 /* secondary-color-dark */
@@ -134,7 +135,7 @@ a.button1:focus,
 a.button2:focus,
 a.button1:active,
 a.button2:active {
-  background-color: var(--secondary-color-dark);
+    background-color: var(--secondary-color-dark);
 }
 
 /* BOOTSTRAP COLORS
@@ -146,7 +147,7 @@ a.button2:active {
 .btn-link,
 .btn-primary .badge,
 .text-primary {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .progress-bar,
@@ -176,7 +177,7 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active,
 .btn-primary,
 .bg-primary {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .pagination > .active > a,
@@ -192,23 +193,23 @@ a.thumbnail.active,
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  border-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .panel-primary > .panel-heading,
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: var(--primary-color);
+    border-top-color: var(--primary-color);
 }
 
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
 }
 
 /* primary-color-light */
@@ -225,7 +226,7 @@ a.thumbnail.active,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  background-color: var(--primary-color-light);
+    background-color: var(--primary-color-light);
 }
 
 .navbar-default .btn-link[disabled]:hover,
@@ -238,8 +239,10 @@ fieldset[disabled] .navbar-default .btn-link:focus,
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: var(--primary-color-darker);
-} /* #45a9d4 */
+    color: var(--primary-color-darker);
+}
+
+/* #45a9d4 */
 
 /* OTHER COLORS
 --------------------------------------------- */
@@ -249,7 +252,7 @@ a.forumtitle:hover,
 a.forumtitle:active,
 a.topictitle:hover,
 a.topictitle:active {
-  color: #000;
+    color: #000;
 }
 
 .copyright a:hover,
@@ -260,24 +263,28 @@ input.button1,
 input.button3,
 a.button2,
 input.button2 {
-  color: #fff;
+    color: #fff;
 }
 
 /* $secondary-color: ; */
 a.button1,
 .panel-secondary .panel-heading {
-  background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .footer-contact-options .icon,
 .footer-contact-options a .icon {
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /* $primary-color-nav: saturate(mix($primary-color, #FFF, 90%), 10%); */
 #main-navbar.navbar-fixed.navbar-default,
 #mobbern-header-0 #main-navbar {
-  background-color: var(--primary-color-light);
+    background-color: var(--primary-color-dark);
+}
+
+#mobbern-header-0 #logo {
+    font-family: 'Lato Light', sans-serif;
 }
 
 /* $primary-color-lightest: mix($primary-color, white, 35%); */
@@ -285,45 +292,70 @@ li.header dl,
 li.header dd,
 li.header .collapse-button,
 .carousel-indicators li {
-  color: var(--primary-color-lightest);
+    color: var(--primary-color-lightest);
 }
 
 .carousel-indicators li.active {
-  background-color: var(--primary-color-lightest);
+    background-color: var(--primary-color-lightest);
 }
 
-/* Other Overrides */
+/*
+ * Other Overrides
+ */
+
+/* Cleanup the User Nav Menu to have a matching icon */
 @media (min-width: 480px) {
-  #main-navbar .float-right .nav > li > a {
-    padding-left: 65px;
-  }
+    #main-navbar .float-right .nav > li > a {
+        padding-left: 65px;
+    }
 }
+
 @media (max-width: 480px) {
-  #main-navbar .float-right .nav > li > a .icon {
-    left: 0;
-  }
+    #main-navbar .float-right .nav > li > a .icon {
+        left: 0;
+    }
 }
 
 #main-navbar .float-left .nav > li > a .icon,
 #main-navbar .float-right .nav > li > a .icon {
-  padding: 14px 0;
+    padding: 14px 0;
 }
 
+/* Fixes to nav icons being ovals instead of circles */
 #main-navbar .float-left .nav > li > a .icon:before,
 #main-navbar .float-right .nav > li > a .icon:before {
-  font-size: 1.23em;
-  line-height: 1.5em;
-  text-align: center;
-  padding: 0.2em;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
+    font-size: 1.23em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0.2em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
 }
 
 #main-navbar .float-right .nav > li > a .icon:before {
-  font-size: 1.3em;
-  line-height: 20px;
-  border: solid 1px rgba(255, 255, 255, 0.25);
-  padding: 6px 7px;
-  border-radius: 50%;
+    font-size: 1.3em;
+    line-height: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    padding: 6px 7px;
+    border-radius: 50%;
+}
+
+/* Spread the Breadcrumbs and Notification Button on the same line */
+.navbar.breadcrumb .container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+ul.linklist {
+    margin-right: auto;
+}
+
+/* Reduce the subheader to smaller than the main header */
+.topic-title .subheader {
+    font-size: 0.8em;
+    color: var(--primary-color-light);
 }
