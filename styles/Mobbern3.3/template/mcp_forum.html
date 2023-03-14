@@ -16,9 +16,9 @@
 
 			<li class="pagination">
 
-			<!-- IF .pagination --> 
+			<!-- IF .pagination -->
 				<!-- INCLUDE pagination.html -->
-			<!-- ELSE --> 
+			<!-- ELSE -->
 				&bull;  {PAGE_NUMBER}
 			<!-- ENDIF -->
 			</li>
@@ -32,7 +32,7 @@
 			<li class="header">
 				<dl class="icon">
 					<dt><div class="list-inner">{L_TOPICS}</div></dt>
-					
+
 					<dd class="posts">{L_REPLIES}</dd>
 					<dd class="lastpost"><span>{L_LAST_POST}</span></dd>
 
@@ -106,9 +106,9 @@
 
 					<div class="responsive-hide">
 						<!-- IF topicrow.ATTACH_ICON_IMG -->{topicrow.ATTACH_ICON_IMG} <!-- ENDIF -->
-						{% EVENT topiclist_row_topic_by_author_before %}					  
+						{% EVENT topiclist_row_topic_by_author_before %}
 						{L_POST_BY_AUTHOR} {topicrow.TOPIC_AUTHOR_FULL} &raquo; {topicrow.FIRST_POST_TIME}
-						{% EVENT topiclist_row_topic_by_author_after %}						 
+						{% EVENT topiclist_row_topic_by_author_after %}
 					</div>
                 <!-- EVENT topiclist_row_append -->
 				</dt>
@@ -159,10 +159,10 @@
 			<li class="text"><!-- IF TOTAL_TOPICS --> {TOTAL_TOPICS}<!-- ENDIF --></li>
 
 			<li class="rightside pagination">
-			
-			<!-- IF .pagination --> 
+
+			<!-- IF .pagination -->
 				<!-- INCLUDE pagination.html -->
-			<!-- ELSE --> 
+			<!-- ELSE -->
 				 &bull; {PAGE_NUMBER}
 			<!-- ENDIF -->
 			</li>
@@ -171,13 +171,13 @@
 
 </div>
 
-<!-- EVENT mcp_forum_actions_before -->									   
+<!-- EVENT mcp_forum_actions_before -->
 <fieldset class="display-actions">
 	<!-- IF not S_MERGE_SELECT -->
 
 	<a href="#" class="button1" onclick="marklist('mcp', 'topic_id_list', true); return false;">
 	<i class="fa fa-check-square-o"></i>&nbsp;&nbsp;{L_MARK_ALL}</a>
-	
+
 	<a href="#" class="button1" onclick="marklist('mcp', 'topic_id_list', false); return false;">
 	<i class="fa fa-square-o"></i>&nbsp;&nbsp;{L_UNMARK_ALL}</a>
 

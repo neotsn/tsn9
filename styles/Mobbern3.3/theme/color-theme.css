@@ -1,4 +1,10 @@
 :root {
+    --break-small: 0px;
+    --break-medium: 641px;
+    --break-large: 1025px;
+    --break-xlarge: 1201px;
+    --break-xxlarge: 1601px;
+
     --primary-color: #0f3f71;
 
     --primary-color-lightest: #c3cfdc;
@@ -303,18 +309,45 @@ li.header .collapse-button,
  * Other Overrides
  */
 
-/* Cleanup the User Nav Menu to have a matching icon */
-@media (min-width: 480px) {
+/* Medium and Above */
+@media (min-width: 481px) {
+    /* Cleanup the User Nav Menu to have a matching icon */
     #main-navbar .float-right .nav > li > a {
         padding-left: 65px;
     }
 }
 
+/* Large and Above */
+@media (min-width: 1024px) {
+    /* Non-Mobile Spread the Breadcrumbs and Notification Button on the same line */
+    .navbar.breadcrumb .container {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    ul.linklist {
+        margin-right: auto;
+    }
+}
+
+/* Medium and Below */
 @media (max-width: 480px) {
     #main-navbar .float-right .nav > li > a .icon {
         left: 0;
     }
 }
+
+/* Large and Below */
+@media (max-width: 1023px) {
+    /* Put the breadcrumbs above the notification icon and extend the height of the navbar box */
+    .navbar.breadcrumb {
+        min-height: 100px;
+    }
+}
+
 
 #main-navbar .float-left .nav > li > a .icon,
 #main-navbar .float-right .nav > li > a .icon {
@@ -341,19 +374,6 @@ li.header .collapse-button,
     border-radius: 50%;
 }
 
-/* Spread the Breadcrumbs and Notification Button on the same line */
-.navbar.breadcrumb .container {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-ul.linklist {
-    margin-right: auto;
-}
-
 /* Reduce the subheader to smaller than the main header */
 .topic-title .subheader {
     font-size: 0.8em;
@@ -362,7 +382,7 @@ ul.linklist {
 
 /* Restore padding & bullets to lists in postbody */
 .postbody .postbody-container .content ul,
-.postbody .postbody-container .content li{
+.postbody .postbody-container .content li {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     list-style-type: circle;
