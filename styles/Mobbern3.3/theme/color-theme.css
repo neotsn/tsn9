@@ -367,3 +367,8 @@ ul.linklist {
     padding-bottom: 0.5em;
     list-style-type: circle;
 }
+
+/* Remove rounded corners from profile images in forum posts */
+.postprofile img {
+    border-radius: unset;
+}
