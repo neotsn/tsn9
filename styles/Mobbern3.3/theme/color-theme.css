@@ -359,3 +359,11 @@ ul.linklist {
     font-size: 0.8em;
     color: var(--primary-color-light);
 }
+
+/* Restore padding & bullets to lists in postbody */
+.postbody .postbody-container .content ul,
+.postbody .postbody-container .content li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-type: circle;
+}
