@@ -1,0 +1,394 @@
+:root {
+    --break-small: 0px;
+    --break-medium: 641px;
+    --break-large: 1025px;
+    --break-xlarge: 1201px;
+    --break-xxlarge: 1601px;
+
+    --primary-color: #0f3f71;
+
+    --primary-color-lightest: #c3cfdc;
+    --primary-color-lighter: #879fb8;
+    --primary-color-light: #4b6f95;
+
+    --primary-color-dark: #0b3c6f;
+    --primary-color-darker: #05386b;
+    --primary-color-darkest: #003366;
+
+    --secondary-color: #ae6c0b;
+
+    --secondary-color-light: #c29148;
+    --secondary-color-lighter: #d7b685;
+    --secondary-color-lightest: #ebdac2;
+
+    --secondary-color-dark: #835108;
+    --secondary-color-darker: #573606;
+    --secondary-color-darkest: #2c1b03;
+}
+
+/* SITE COLORS
+--------------------------------------------- */
+/* primary-color */
+a,
+a:link,
+a:visited,
+.opts-container .button2,
+.info-block .display-options .button2,
+.sidebar-block.tabs-panel .nav-tabs,
+.sidebar-block.tabs-panel .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+a.forumtitle:hover,
+a.forumtitle:active,
+a.topictitle:hover,
+a.topictitle:active,
+.navbar.breadcrumb ul.navitems a:hover,
+input.search-icon:focus,
+.navbar-default .nav > .mega-menu.open > a,
+.navbar-default .nav > .mega-menu.open > a:hover,
+.navbar-default .nav > .mega-menu.open > a:focus,
+#main-navbar .dropdown-menu > li > a,
+#tabs .activetab a span,
+#tabs .activetab a:hover span,
+.search-box .button2 {
+    color: var(--primary-color);
+}
+
+#mobbern-header-2 #main-navbar.navbar,
+.info-block .display-options .button2:hover,
+.sidebar-block.tabs-panel .nav-tabs,
+.topiclist > li.header,
+#main-navbar.navbar-fixed,
+#main-navbar.navbar-default,
+.panel .panel-heading,
+#minitabs li,
+.posthilit,
+#tabs,
+.table1 thead,
+a.button1,
+input.button1,
+input.button3,
+a.button2,
+input.button2,
+.carousel .item,
+.panel-rules .panel-body {
+    background-color: var(--primary-color);
+}
+
+.content.quick-reply {
+    border-color: var(--primary-color);
+}
+
+.row .pagination span a:hover,
+li.pagination span a:hover,
+.pagination span strong,
+.row .pagination ul li a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+a.button1:hover,
+input.button1:hover,
+a.button2:hover,
+input.button2:hover,
+input.button3:hover,
+#main-navbar .navbar-toggle:hover,
+#main-navbar .navbar-toggle:focus,
+#tabs a:hover span,
+.sidebar-block.tabs-panel .nav-tabs > li > a:hover,
+.sidebar-block.tabs-panel .nav-tabs > li > a:focus {
+    background-color: var(--secondary-color-light);
+}
+
+/* primary-color-lighter */
+#main-navbar .dropdown-menu > li > a:hover,
+#main-navbar .dropdown-menu > li > a:focus {
+    background-color: var(--primary-color-lighter);
+}
+
+/* primary-color-dark */
+input.button1:focus,
+input.button2:focus,
+input.button3:focus {
+    background-color: var(--primary-color-dark);
+}
+
+/* primary-color-darkest */
+html,
+#page-footer,
+#simple-wrap .copyright {
+    background-color: var(--primary-color-darkest);
+}
+
+.footer-contact-social a .icon {
+    color: var(--primary-color-darkest);
+}
+
+/* text-color-footer */
+#page-footer,
+.footer-links-list a,
+#simple-wrap .copyright,
+.copyright a {
+    color: #91a5ae;
+}
+
+.footer-contact-social a .icon {
+    background-color: #91a5ae;
+}
+
+/* secondary-color-dark */
+a.button1:focus,
+a.button2:focus,
+a.button1:active,
+a.button2:active {
+    background-color: var(--secondary-color-dark);
+}
+
+/* BOOTSTRAP COLORS
+--------------------------------------------- */
+/* primary-color */
+.panel-primary > .panel-heading .badge,
+.pagination > li > a,
+.pagination > li > span,
+.btn-link,
+.btn-primary .badge,
+.text-primary {
+    color: var(--primary-color);
+}
+
+.progress-bar,
+.badge,
+.label-primary,
+.navbar-default,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary,
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active,
+.panel-primary,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    border-color: var(--primary-color);
+}
+
+.panel-primary > .panel-heading,
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: var(--primary-color);
+}
+
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: var(--primary-color);
+}
+
+/* primary-color-light */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--primary-color-light);
+}
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: var(--primary-color-darker);
+}
+
+/* #45a9d4 */
+
+/* OTHER COLORS
+--------------------------------------------- */
+a:hover,
+a:active,
+a.forumtitle:hover,
+a.forumtitle:active,
+a.topictitle:hover,
+a.topictitle:active {
+    color: #000;
+}
+
+.copyright a:hover,
+.footer-panel-body a,
+.footer-panel-body a:hover,
+a.button1,
+input.button1,
+input.button3,
+a.button2,
+input.button2 {
+    color: #fff;
+}
+
+/* $secondary-color: ; */
+a.button1,
+.panel-secondary .panel-heading {
+    background-color: var(--secondary-color);
+}
+
+.footer-contact-options .icon,
+.footer-contact-options a .icon {
+    color: var(--secondary-color);
+}
+
+/* $primary-color-nav: saturate(mix($primary-color, #FFF, 90%), 10%); */
+#main-navbar.navbar-fixed.navbar-default,
+#mobbern-header-0 #main-navbar {
+    background-color: var(--primary-color-dark);
+}
+
+#mobbern-header-0 #logo {
+    font-family: 'Lato Light', sans-serif;
+}
+
+/* $primary-color-lightest: mix($primary-color, white, 35%); */
+li.header dl,
+li.header dd,
+li.header .collapse-button,
+.carousel-indicators li {
+    color: var(--primary-color-lightest);
+}
+
+.carousel-indicators li.active {
+    background-color: var(--primary-color-lightest);
+}
+
+/*
+ * Other Overrides
+ */
+
+/* Medium and Above */
+@media (min-width: 481px) {
+    /* Cleanup the User Nav Menu to have a matching icon */
+    #main-navbar .float-right .nav > li > a {
+        padding-left: 65px;
+    }
+}
+
+/* Large and Above */
+@media (min-width: 1024px) {
+    /* Non-Mobile Spread the Breadcrumbs and Notification Button on the same line */
+    .navbar.breadcrumb .container {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    ul.linklist {
+        margin-right: auto;
+    }
+}
+
+/* Medium and Below */
+@media (max-width: 480px) {
+    #main-navbar .float-right .nav > li > a .icon {
+        left: 0;
+    }
+}
+
+/* Large and Below */
+@media (max-width: 1023px) {
+    /* Put the breadcrumbs above the notification icon and extend the height of the navbar box */
+    .navbar.breadcrumb {
+        min-height: 100px;
+    }
+}
+
+
+#main-navbar .float-left .nav > li > a .icon,
+#main-navbar .float-right .nav > li > a .icon {
+    padding: 14px 0;
+}
+
+/* Fixes to nav icons being ovals instead of circles */
+#main-navbar .float-left .nav > li > a .icon:before,
+#main-navbar .float-right .nav > li > a .icon:before {
+    font-size: 1.23em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0.2em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+#main-navbar .float-right .nav > li > a .icon:before {
+    font-size: 1.3em;
+    line-height: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    padding: 6px 7px;
+    border-radius: 50%;
+}
+
+/* Reduce the subheader to smaller than the main header */
+.topic-title .subheader {
+    font-size: 0.8em;
+    color: var(--primary-color-light);
+}
+
+/* Restore padding & bullets to lists in postbody */
+.postbody .postbody-container .content ul,
+.postbody .postbody-container .content li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-type: circle;
+}
+
+/* Remove rounded corners from profile images in forum posts */
+.postprofile img {
+    border-radius: unset;
+}
