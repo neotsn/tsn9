@@ -1,0 +1,3 @@
+RewriteEngine on
+# Probably not necessary because phpbb doesn't allow access to this, but just in case...
+RewriteRule ^\..*$ - [R=404,NC,L] # Prevent access to anything starting with a .
