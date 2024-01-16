@@ -22,6 +22,7 @@
 		s.parentNode.insertBefore(wf, s);
 	})(document);
 </script>
+<!-- ENDIF --> {# Added this as a fix #}
 
 <link href="{T_THEME_PATH}/print.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" type="text/css" media="print" title="printonly" />
 <!-- IF S_ALLOW_CDN --><link href="//fonts.googleapis.com/css?family=Open+Sans:600&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese" rel="stylesheet" type="text/css" media="screen, projection" /><!-- ENDIF -->
@@ -32,36 +33,18 @@
 
 
 <!-- IF MBRN_COLOR_PRESET != null -->
-  <!-- IF MBRN_COLOR_PRESET == "azure" -->
-  <link href="{T_THEME_PATH}/color-theme-azure.css" rel="stylesheet" type="text/css" class="color-theme" />
-  <!-- ENDIF -->
-  <!-- IF MBRN_COLOR_PRESET == "emerald" -->
-  <link href="{T_THEME_PATH}/color-theme-emerald.css" rel="stylesheet" type="text/css" class="color-theme" />
-  <!-- ENDIF -->
-  <!-- IF MBRN_COLOR_PRESET == "slate" -->
-  <link href="{T_THEME_PATH}/color-theme-slate.css" rel="stylesheet" type="text/css" class="color-theme" />
-  <!-- ENDIF -->
-  <!-- IF MBRN_COLOR_PRESET == "tomato" -->
-  <link href="{T_THEME_PATH}/color-theme-tomato.css" rel="stylesheet" type="text/css" class="color-theme" />
-  <!-- ENDIF -->
-  <!-- IF MBRN_COLOR_PRESET == "lilac" -->
-  <link href="{T_THEME_PATH}/color-theme-lilac.css" rel="stylesheet" type="text/css" class="color-theme" />
-  <!-- ENDIF -->
+  <!-- IF MBRN_COLOR_PRESET == "azure" --><link href="{T_THEME_PATH}/color-theme-azure.css" rel="stylesheet" type="text/css" class="color-theme" /><!-- ENDIF -->
+  <!-- IF MBRN_COLOR_PRESET == "emerald" --><link href="{T_THEME_PATH}/color-theme-emerald.css" rel="stylesheet" type="text/css" class="color-theme" /><!-- ENDIF -->
+  <!-- IF MBRN_COLOR_PRESET == "slate" --><link href="{T_THEME_PATH}/color-theme-slate.css" rel="stylesheet" type="text/css" class="color-theme" /><!-- ENDIF -->
+  <!-- IF MBRN_COLOR_PRESET == "tomato" --><link href="{T_THEME_PATH}/color-theme-tomato.css" rel="stylesheet" type="text/css" class="color-theme" /><!-- ENDIF -->
+  <!-- IF MBRN_COLOR_PRESET == "lilac" --><link href="{T_THEME_PATH}/color-theme-lilac.css" rel="stylesheet" type="text/css" class="color-theme" /><!-- ENDIF -->
 <!-- ELSE -->
   <link href="{T_THEME_PATH}/color-theme-azure.css" rel="stylesheet" type="text/css" class="color-theme" />
 <!-- ENDIF -->
 
 <!-- CUSTOM COLOR THEME: -->
-<!-- IF MBRN_COLOR_CUSTOM != null -->
-<link rel="stylesheet" href="{T_THEME_PATH}/color-theme.css" type="text/css" class="color-theme" />
-<!-- ENDIF -->
-
-
-
-<!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
-  <link href="{T_THEME_PATH}/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" type="text/css" media="screen, projection" />
-<!-- ENDIF -->
-
+<!-- IF MBRN_COLOR_CUSTOM != null --><link rel="stylesheet" href="{T_THEME_PATH}/color-theme.css" type="text/css" class="color-theme" /><!-- ENDIF -->
+<!-- IF S_CONTENT_DIRECTION eq 'rtl' --><link href="{T_THEME_PATH}/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" type="text/css" media="screen, projection" /><!-- ENDIF -->
 <!--[if lte IE 9]>
   <link href="{T_THEME_PATH}/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" type="text/css" media="screen, projection" />
 <![endif]-->

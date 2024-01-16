@@ -1,4 +1,15 @@
 /* ADD CUSTOM CSS HERE */
+.container {
+    /* Container picks up media width, limit it to handle padding */
+    max-width: 100%;
+}
+
 .postimage {
+    /* Prevent images from falling outside the post body */
     max-width: 100%
+}
+
+.emoji {
+    /* Emoji are svg files, limit their height */
+    max-height: 1em;
 }
