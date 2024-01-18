@@ -13,3 +13,22 @@
     /* Emoji are svg files, limit their height */
     max-height: 1em;
 }
+
+blockquote.uncited {
+    /* Remove the top padding */
+    padding-top: 5px;
+}
+
+.postbody .content,
+.post:target .content {
+    /* Match forum content color in preview */
+    color: #555555;
+}
+
+.postbody .content ul,
+.postbody .content li {
+    /* Match forum list style in preview */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-type: circle;
+}
