@@ -1,4 +1,39 @@
 /* ADD CUSTOM CSS HERE */
+.container {
+    /* Container picks up media width, limit it to handle padding */
+    max-width: 100%;
+}
+
 .postimage {
+    /* Prevent images from falling outside the post body */
     max-width: 100%
+}
+
+.emoji {
+    /* Emoji are svg files, limit their height */
+    max-height: 1em;
+}
+
+blockquote.uncited {
+    /* Remove the top padding */
+    padding-top: 5px;
+}
+
+.post:target {
+    /* Prevent the header menu from going under the post preview */
+    z-index: unset;
+}
+
+.postbody .content,
+.post:target .content {
+    /* Match forum content color in preview */
+    color: #555555;
+}
+
+.postbody .content ul,
+.postbody .content li {
+    /* Match forum list style in preview */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-type: circle;
 }
